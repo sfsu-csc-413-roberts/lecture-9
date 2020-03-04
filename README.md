@@ -18,6 +18,5 @@ program {boolean j int i
 
 #### Answers
 
-[Image Representation](answer.png)
-
-[Text Representation](answer.md)
+* [Image Representation](answer.png)
+* [Text Representation](answer.md)
