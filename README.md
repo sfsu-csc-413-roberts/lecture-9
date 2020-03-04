@@ -1,5 +1,6 @@
-### Lecture 9 
+### Lecture 9 Examples
 
+#### Example 1
 Build an AST for the following x program:
 
 ```
@@ -16,7 +17,20 @@ program {boolean j int i
 }
 ```
 
-#### Answers
+##### Answers
+* [Image Representation](example-1/answer.png)
+* [Text Representation](example-1/answer.md)
 
-* [Image Representation](answer.png)
-* [Text Representation](answer.md)
+#### Example 2
+Build an AST for the following x program:
+
+```
+program { int i
+  int f( int j ) { int i return j + 5 }
+  i = f( 7 )
+}
+```
+
+##### Answers
+* [Image Representation](example-2/answer.png)
+* [Text Representation](example-2/answer.md)
